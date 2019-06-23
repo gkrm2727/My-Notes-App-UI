@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100"
+    android:background="@color/lightYellow"
+    android:gravity="center_vertical">
+
+
+    <View android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="@color/mediumYellow">
+
+    </View>>
+
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="New Note"
+        android:id="@+id/title"
+        android:layout_weight="75"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:lines="1"
+
+        />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:background="#FDFDB2">
+
+    </View>>
+
+
+    <TextView
+
+        android:id="@+id/timestamp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:padding="10dp"
+        android:text="June 2019"
+        android:textSize="18sp" />
+
+
+
+</LinearLayout>
